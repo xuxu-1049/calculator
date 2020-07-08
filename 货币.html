@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>货币</h3>
+    <div id="leftSide">
+        <div id="symbol1"></div>
+        <div id="input"></div>
+        <select id="select1" onchange="symbolChange()">
+            <option selected class="dollar">美元</option>
+            <option class="euro">欧元</option>
+            <option class="rmb">人民币</option>
+            <option class="won">韩元</option>
+            <option class="yen">日元</option>
+        </select>
+        <div id="symbol2"></div>
+        <div id="result"></div>
+        <select id="select2" onchange="symbolChange()">
+            <option class="dollar">美元</option>
+            <option class="euro">欧元</option>
+            <option selected class="rmb">人民币</option>
+            <option class="won">韩元</option>
+            <option class="yen">日元</option>
+        </select>
+    </div>
+    <div id="rightSide">
+        <button class="operator" id="reset">CE</button>
+        <button class="operator" id="back">X</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="number">0</button>
+        <button class="operator" id="dot">.</button>
+    </div>
+    <script src="多用计算器.js"></script>
+    <script src="货币.js"></script>
+</body>
+</html>

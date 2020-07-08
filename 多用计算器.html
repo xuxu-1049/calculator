@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <link href="多用计算器.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header id="header">计算器</header>
+    <div id="main">
+        <div id="optionBtn">
+            <div id="insideBtn"></div>
+        </div>
+        <div id="optionDiv">
+            <div id="calculator">计算器
+                <a href="#" onclick="Basic()">标准</a>
+                <a href="#" onclick="Day()">日期计算</a>
+            </div>
+            <div id="converter">转换器
+                <a href="#" onclick="Currency()">货币</a>
+                <a href="#" onclick="Capacity()">容量</a>
+                <a href="#" onclick="Length()">长度</a>
+                <a href="#" onclick="Weight()">重量</a>
+                <a href="#" onclick="Temperature()">温度</a>
+                <a href="#" onclick="Energy()">能量</a>
+                <a href="#" onclick="Area()">面积</a>
+                <a href="#" onclick="Speed()">速度</a>
+                <a href="#" onclick="Time()">时间</a>
+                <a href="#" onclick="Power()">功率</a>
+                <a href="#" onclick="Data ()">数据</a>
+                <a href="#" onclick="Pressure()">压力</a>
+                <a href="#" onclick="Angle()">角度</a>
+            </div>
+        </div>
+        <div id="frameDiv">
+            <iframe src="标准.html" id="containerFrame"></iframe>
+        </div>
+        <script src="多用计算器.js"></script>
+    </div>
+</body>
+</html>
