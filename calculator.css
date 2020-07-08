@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#outer{
+    width: 270px;
+    height: auto;
+    margin: 50px auto;
+    border: #cdcdcd solid 1px;
+    border-radius: 5px;
+    padding:15px;
+}
+#screen{
+    height: 100px;
+    text-align: right;
+    border-bottom: #cdcdcd solid 1px;
+    word-break:break-all;
+}
+#input{
+    width: 95%;
+    height: 60%;
+    margin: auto;
+    color: gray;
+}
+#result{
+    width: 95%;
+    height: 40%;
+    margin: auto;
+    color: gray;
+}
+#keyboard{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.operator,.number{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #ededed;
+    color: #9f9f9f;
+    border-radius: 50px;
+}
+#equal{
+    width: 100px;
+}
+.operator{
+    color: coral;
+}
+.operator:hover,.number:hover{
+    background-color: white;
+}
+.operator:focus,.number:focus{
+    outline: 0;
+}
